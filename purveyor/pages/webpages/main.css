@@ -1,0 +1,106 @@
+body
+{
+  background-color: #ECECEC;
+}
+.site_name
+{
+  margin-top: 4%;
+
+}
+.site_nam
+{
+  margin-top: 8%;
+}
+.head
+{
+  font-size:40px;
+  color:#41B3A3;
+}
+.head:hover
+{
+
+  color:#011627;
+}
+.navbar .navbar-toggle .icon-bar {
+   background-color:#011627;
+
+}
+
+.log
+{
+  font-family: 'Patua One', cursive;
+  font-size:20px;
+  color:black; 
+}
+
+.log:hover
+{
+  background-color:#41B3A3;
+  text-decoration: : none;
+  color:black; 
+}
+.navbar{
+
+  border-bottom:1px solid black;
+}
+.box
+{
+  border:none;
+  border-bottom:1px dotted black;
+  width:300px;
+  font-family: 'Patua One', cursive;
+  font-size:16px;
+  background:transparent;
+
+}
+.box:focus
+{
+  outline: none;
+  border-bottom:1px dotted #41B3A3;
+  transition: 0.5s;
+}
+@media (max-width: 640px) 
+{
+  .box
+  {
+    width: 80%;
+
+  }
+ img#optionalstuff
+ {
+    display: none;  
+ }
+ .site_name{
+  margin-top: 5%
+ }
+ 
+}
+.login_button
+{
+  margin-top: 4%;
+  width:100px;
+  padding:7px;
+  border:1px solid black;
+  background-color:#011627;
+  font-family: 'Patua One', cursive;
+  color:white;
+  border-radius: 2px;
+
+}
+.login_button:focus
+{
+  outline: none;
+  opacity: 3px;
+}
+.new_account
+{
+  margin-top: 10%;
+  font-family: 'Patua One', cursive;
+  color:#011627;
+  font-size: 16px;
+
+}
+.helper {
+
+    margin-top: 2%;
+}

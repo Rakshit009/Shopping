@@ -1,0 +1,101 @@
+body
+{
+  background-image: url('../../backgrounds/lix.jpg');
+  font-family: 'Lobster', cursive;
+  background-size: 50%;
+  background-repeat:no-repeat;
+  background-position: center 150px;
+
+}
+.head
+{
+  font-family: 'Patua One';
+  font-size:26px;
+  color:#011627;
+}
+.head:hover
+{
+ color:#011627;
+}
+.navbar .navbar-toggle .icon-bar {
+   background-color:#011627;
+
+}
+.tag{
+  text-align:center;
+  font-size:20px;
+}
+.spoke
+{
+  color:black;
+  font-family: 'Patua One', cursive;
+  font-size:40px;
+  text-align: center;
+
+}
+.but
+{
+
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  padding:6px;
+  width:60%;
+  background:transparent;
+  border:1px solid white;
+  color:#41B3A3;
+  box-shadow: 0 0 1px grey;
+ 
+  
+}
+.but:hover
+{
+  box-shadow: 0 0 2px #41B3A3;
+  transition: 0.5s;
+}
+.but:focus
+{
+  outline:0;
+  box-shadow: 0 0 4px #41B3A3;
+}
+.log
+{
+  font-family: 'Patua One', cursive;
+  font-size:16px;
+  color:black; 
+}
+
+.log:hover
+{
+  background-color:#41B3A3;
+  text-decoration: : none;
+  color:black; 
+}
+@media (max-width: 640px) 
+{
+  body
+  {
+    background-size: 400%;
+  }
+  .spoke
+  {
+    margin-top: 20%;
+
+  }
+  .move
+  {
+    margin-left:0%; 
+  }
+  .but
+  {
+    width:30%; 
+  }
+}
+.navbar
+{
+  border:1px solid lightgrey;
+}
+.navbar:hover
+{
+  background-color: white;
+  transition: 1s;
+}
